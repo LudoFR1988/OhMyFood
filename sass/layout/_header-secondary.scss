@@ -1,0 +1,24 @@
+.header-secondary h2 {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Shrikhand", serif;
+}
+
+.header-secondary img {
+  display: block;
+  width: 100%;
+  max-height: 378px;
+  object-fit: cover;
+}
+.header-secondary nav {
+  display: flex;
+  align-items: center;
+}
+.header-secondary nav img {
+  margin: 0 auto;
+}
+.header-secondary nav i {
+  font-size: 1.5rem;
+  color: black;
+}

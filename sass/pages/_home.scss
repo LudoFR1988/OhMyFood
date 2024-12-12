@@ -1,0 +1,121 @@
+.restaurants {
+  padding: 20px;
+  background-color: #f6f6f6;
+  margin-top: 40px;
+}
+.restaurants-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.restaurants-cards {
+  display: grid;
+  gap: 20px;
+  @media screen and (min-width: 1024px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.restaurants h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.restaurants p {
+  font-weight: 300;
+}
+main .city {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  color: #353535;
+  font-size: 16px;
+  gap: 0.8rem;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+main .city i {
+  width: 12px;
+  height: 16px;
+  color: #353535;
+}
+
+.explorer {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+.explorer-container {
+  padding: 20px;
+  margin: 0 auto;
+  min-width: 320px;
+}
+
+.explorer h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+.explorer p {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.fonctionnement {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.fonctionnement ol {
+  margin: 0 20px;
+  padding: 0px;
+  list-style: none;
+  @media screen and (min-width: 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+.fonctionnement li {
+  background-color: #f6f6f6;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  position: relative;
+  counter-increment: my-awesome-counter;
+}
+.fonctionnement li::before {
+  content: counter(my-awesome-counter);
+  background: #9356dc;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+  margin-right: 0.5rem;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500 !important;
+}
+.fonctionnement i {
+  font-size: 1.2rem;
+  margin-right: 2rem;
+  color: grey;
+  margin-left: 20px;
+  width: 20px;
+}
+.fonctionnement li:hover i {
+  color: #9356dc;
+}
+.fonctionnement h2 {
+  text-indent: 25px;
+  margin-top: 40px;
+}

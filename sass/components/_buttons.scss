@@ -1,0 +1,41 @@
+.explorer-button {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 12px -4px black;
+  background: linear-gradient(to top, #9356dc, #ff79da);
+}
+
+.explorer-button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+.commander-button {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 12px -4px black;
+  background: linear-gradient(to top, #9356dc, #ff79da);
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  top: 20px;
+  @media screen and (min-width: 1024px) {
+    width: 186px;
+    height: 50px;
+    margin-top: 40px;
+    position: relative;
+    top: 20px;
+  }
+}
+
+.commander-button:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
