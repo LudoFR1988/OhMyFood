@@ -356,6 +356,8 @@ footer .footer-item {
   .fa-regular.fa-heart {
     right: 20px;
     position: relative;
+    margin-bottom: 40px;
+    display: block;
   }
 }
 
@@ -534,6 +536,7 @@ footer .footer-item {
 .container .menu-header h2 {
   font-family: "Shrikhand", serif;
   font-size: 1.8rem;
+  margin-left: 7px;
 }
 .container .menu-header i {
   margin-right: 20px;
@@ -606,11 +609,13 @@ footer .footer-item {
     font-family: "Shrikhand", serif;
     font-size: 1.8rem;
     margin: 0;
+    position: absolute;
   }
   .container .menu-header i {
     position: absolute;
-    right: 225px;
+    right: 210px;
     font-size: 1.7rem;
+    margin-top: -14px;
   }
 }
 .icon-container {
