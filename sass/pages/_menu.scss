@@ -126,11 +126,10 @@
   z-index: 1;
   visibility: hidden;
 }
-
-.check-icon {
-  color: white;
-  font-size: 14px;
-  display: none;
+.fa-circle-check {
+  background-color: #99e2d0;
+  font-size: 20px;
+  color: #f6f6f6;
 }
 
 .menu-item:hover .icon-container {
