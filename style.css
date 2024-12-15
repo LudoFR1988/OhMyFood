@@ -284,7 +284,7 @@ footer .footer-item {
   color: white;
   font-weight: bold;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1rem 3rem;
   border: none;
   border-radius: 2rem;
   box-shadow: 1px 1px 12px -4px black;
@@ -356,8 +356,6 @@ footer .footer-item {
   .fa-regular.fa-heart {
     right: 20px;
     position: relative;
-    margin-bottom: 40px;
-    display: block;
   }
 }
 
