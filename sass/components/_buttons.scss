@@ -12,6 +12,7 @@
 .explorer-button:hover {
   transform: scale(1.02);
   opacity: 0.9;
+  box-shadow: 2px 2px 14px -4px black;
 }
 .commander-button {
   color: white;
@@ -38,4 +39,5 @@
 .commander-button:hover {
   transform: scale(1.02);
   opacity: 0.9;
+  box-shadow: 2px 2px 14px -4px black;
 }
