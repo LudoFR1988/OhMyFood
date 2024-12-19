@@ -31,6 +31,7 @@
 
 .heart:hover .fa-regular.fa-heart {
   display: none;
+  animation-timing-function: linear;
 }
 .heart:hover .fa-solid.fa-heart {
   display: block;
@@ -53,7 +54,23 @@
     position: relative;
   }
 }
-
+@keyframes fillHeart {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #9356dc;
+    opacity: 0;
+  }
+  100% {
+    color: #9356dc;
+    opacity: 1;
+  }
+}
+.heart:hover::before,
+.heart:hover::after {
+  animation: fillHeart 2s ease-in-out forwards;
+}
 .card-restaurant img {
   width: 100%;
   height: 200px;
@@ -85,3 +102,30 @@
     gap: 60px;
   }
 }
+
+/* 
+.heart:hover .fa-regular.fa-heart {
+  display: none;
+}
+.heart:hover .fa-solid.fa-heart {
+  display: block;
+}
+.fa-regular.fa-heart {
+  color: black;
+  font-size: 1.5rem;
+  @media screen and (min-width: 1024px) {
+    right: 20px;
+    position: relative;
+  }
+}
+
+.fa-solid.fa-heart {
+  color: #9356dc;
+  font-size: 1.5rem;
+  display: none;
+  @media screen and (min-width: 1024px) {
+    right: 20px;
+    position: relative;
+  }
+}
+*/
